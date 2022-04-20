@@ -71,10 +71,6 @@ let package = Package(
         .product(name: "GTMSessionFetcherCore", package: "GTMSessionFetcher"),
       ],
       path: "GoogleSignIn/Sources",
-      resources: [
-        // .process("Resources"),
-        .process("Strings"),
-      ],
       publicHeadersPath: "Public",
       cSettings: [
         .headerSearchPath("../../"),
