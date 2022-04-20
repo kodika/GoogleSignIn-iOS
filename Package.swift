@@ -72,7 +72,7 @@ let package = Package(
       ],
       path: "GoogleSignIn/Sources",
       resources: [
-        .process("Resources"),
+        // .process("Resources"),
         .process("Strings"),
       ],
       publicHeadersPath: "Public",
